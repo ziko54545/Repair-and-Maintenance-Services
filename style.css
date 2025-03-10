@@ -1,0 +1,266 @@
+
+.btn1 {
+    background-color: orange;
+    width: 200px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(6, 4, 2);
+}
+
+body {
+
+    height: 100vh;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero img {
+    max-width: 400px;
+}
+
+.service-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-box img {
+    width: 50px;
+}
+
+.improve {
+    background-color: #ffffff;
+}
+
+.improve:hover {
+    background-color: orange;
+}
+
+.Repair {
+    background-color: #ffffff;
+}
+
+.Repair:hover {
+    background-color: orange;
+}
+
+.Maintain {
+    background-color: #ffffff;
+}
+
+.Maintain:hover {
+    background-color: orange;
+}
+
+.container1 {
+    background-color: #dfe8f5;
+    line-height: 1.5;
+
+}
+
+.container3 {
+    background-color: #dfe8f5;
+    line-height: 1.5;
+
+}
+
+#id1 {
+    background-color: #dfe8f5;
+
+
+}
+
+
+
+
+.service-box {
+    height: 200px;
+
+}
+
+.nav-link {
+    color: #3a3d43;
+}
+
+.nav-link:hover {
+    color: rgb(223, 128, 11);
+  background-color: #0d6efd;
+  border-radius: 15px;
+}
+
+.btn {
+    background: #0d6efd;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+a:hover{
+color: #0d6efd;
+}
+p{
+font-weight: 400;
+line-height: 2;
+}
+
+.testimonial-card {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    background: white;
+}
+
+.client-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.star-rating {
+    color: #ffc107;
+}
+
+.nav-button {
+    width: 40px;
+    height: 40px;
+    background: #0d6efd;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.view-more-btn {
+    background: #0d6efd;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.send-btn {
+    background: #0d6efd;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.map-container {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #0a1435;
+    color: white;
+    padding: 3rem 0;
+}
+
+.contact-circle {
+    width: 50px;
+    height: 50px;
+    background: #0d6efd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-icons i {
+    color: #0a1435;
+}
+p{
+font-size: large;
+line-height: 2;
+}
+        h1{
+animation-name: h1_animation;
+transform: translatex(-1200%);
+animation-duration: 8s;
+animation-fill-mode: forwards;
+font-weight: 400;
+font-size: 50px;
+
+}
+@keyframes  h1_animation{
+0%{
+    transform: translatex(-200%);
+}
+100%{
+    transform: translatex(3%);
+}
+
+}
+
+        h2{
+animation-name: h2_animation;
+transform: translatey(-1200%);
+animation-duration: 8s;
+animation-fill-mode: forwards;
+font-weight: 400;
+font-size: 50px;
+
+}
+@keyframes  h2_animation{
+0%{
+    transform: translatey(-500%);
+}
+100%{
+    transform: translatey(5%);
+}
+
+}
